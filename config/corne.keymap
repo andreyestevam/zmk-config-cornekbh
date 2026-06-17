@@ -168,6 +168,16 @@
             key-positions = <20 21>;
             layers = <0>;
         };
+
+        brace-less {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <7 8>;
+        };
+
+        brace-great {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <8 9>;
+        };
     };
 
     //
