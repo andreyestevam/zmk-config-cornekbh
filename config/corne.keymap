@@ -9,6 +9,13 @@
 #define ADJ 3
 #define EXTRA 4
 
+&mmv { time-to-max-speed-ms = <100>; };
+
+&msc {
+    time-to-max-speed-ms = <100>;
+    acceleration-exponent = <0>;
+};
+
 / {
     behaviors {
         hmr: homerow_mods {
