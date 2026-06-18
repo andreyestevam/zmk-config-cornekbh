@@ -305,3 +305,21 @@
         };
     };
 };
+
+&mmv {
+    time-to-max-speed-ms = <200>;
+    acceleration-exponent = <1>;
+};
+
+&msc {
+    time-to-max-speed-ms = <40>;
+    acceleration-exponent = <0>;
+};
+
+&mmv_input_listener {
+    input-processors = <&zip_xy_scaler 2 1>;
+};
+
+&msc_input_listener {
+    input-processors = <&zip_scroll_scaler 3 1>;
+};
